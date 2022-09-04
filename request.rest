@@ -1,0 +1,13 @@
+POST http://localhost:4000/info
+Content-Type: application/json
+
+{
+    "email":"goofran@gmail.com",
+    "password":"12345678"
+}
+###
+
+GET  http://localhost:4000/blog-list
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Z29vZnJhbkBnbWFpbC5jb20.viU-lkIN6g4Wi8-Q2CSQEW32N3Jc4xVRD3sYmedXEOo
+
